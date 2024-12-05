@@ -1,7 +1,7 @@
 /* Fonts and Colors */
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to right, #11998e, #38ef7d); /* Updated to reflect a positive scholarship vibe */
+    background: linear-gradient(to right, #e3f0ef, #eef0ef); /* Updated to reflect a positive scholarship vibe */
     margin: 0;
     padding: 0;
     display: flex;
@@ -75,7 +75,7 @@ button {
     font-size: 1rem;
     font-weight: 600;
     color: #fff;
-    background: linear-gradient(to right, #11998e, #38ef7d);
+    background: linear-gradient(to right, #31cd68,#31cd68);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -83,7 +83,7 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(to right, #38ef7d, #11998e);
+    background: linear-gradient(to right, #38ef7d,#38ef7d);
 }
 
 #response {
