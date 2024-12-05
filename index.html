@@ -4,16 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Scholarship Application Form</title>
+  <title>Volleyball Registration Form</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="form-container">
-    <h1>Apply for a Scholarship</h1>
-    <p>Complete the form below to submit your scholarship application</p>
-    <form id="scholarshipForm">
+    <h1>Join the Volleyball Team</h1>
+    <p>Fill out the form below to register for the volleyball team</p>
+    <form id="volleyballForm">
       <div class="form-group">
         <label for="name">Full Name</label>
         <input type="text" id="name" name="name" placeholder="Enter your full name" required>
@@ -31,26 +31,18 @@
         <input type="date" id="dob" name="dob" required>
       </div>
       <div class="form-group">
-        <label for="address">Address</label>
-        <textarea id="address" name="address" placeholder="Enter your full address" required></textarea>
+        <label for="position">Preferred Playing Position</label>
+        <input type="text" id="position" name="position" placeholder="e.g., Setter, Libero" required>
       </div>
       <div class="form-group">
-        <label for="course">Intended Course of Study</label>
-        <input type="text" id="course" name="course" placeholder="Enter your desired course" required>
-      </div>
-      <div class="form-group">
-        <label for="grade">Recent Academic Qualification (e.g., GPA, Grades)</label>
-        <input type="text" id="grade" name="grade" placeholder="Enter your recent academic details" required>
-      </div>
-      <div class="form-group">
-        <label for="essay">Upload Personal Essay(a written statement that's an important part of a scholarship application)</label>
-        <input type="file" id="essay" name="essay" accept=".pdf, .docx" required>
+        <label for="photo">Upload your Photo</label>
+        <input type="file" id="photo" name="photo" accept=".jpg, .docx" required>
       </div>
       <div class="form-group">
         <label for="docs">Supporting Documents (e.g., Certificates)</label>
         <input type="file" id="docs" name="docs" accept=".pdf, .docx" multiple required>
       </div>
-      <button type="submit">Submit Application</button>
+      <button type="submit">Register Now</button>
     </form>
     <div id="response"></div>
   </div>
